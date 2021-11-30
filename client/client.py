@@ -14,4 +14,5 @@ def get_secret_message():
 if __name__ == "__main__":
     
     while True:
+        get_secret_message()
         time.sleep( 10 )
