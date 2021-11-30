@@ -2,7 +2,7 @@
 
 from flask import Flask
 
-SECRET_MESSAGE = "I love kumm warinnnnnn"
+SECRET_MESSAGE = "How do you get there ?"
 app = Flask(__name__)
 
 @app.route("/")
