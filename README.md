@@ -21,6 +21,7 @@
 	
 	3.2 client
 	- docker run -d --network ${NETWORK_NAME} --name myclient --env SECRET_URL="http://myserver:5000" --env="PYTHONUNBUFFERED=1" python-http-client
+	
 	you also change SECRET_URL to http://myserver.local:5000
 
 
